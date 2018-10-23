@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/chat_new.css" />
+    
+    <title>Chat new</title>
+</head>
+<body>
+    <form action="" class="window" id="window">Please enter your name.
+        <input type="text" maxlength="20" id="text_window" placeholder="Only less than 20 letters." required>
+        <input type="submit" id="submit_window" value="send">
+    </form>
+    <div class="canvas">
+        <div id="main_block">
+            <a href="/index.html">BACK</a>
+        
+        </div>
+        <div  id="left_block">
+            
+        </div>
+        <div id="right_block">
+           <div id="message">
+
+           </div>
+        </div>
+        <div id="footer">
+            <form id="form_msn">
+                <textarea id="text_msn" maxlength="177"></textarea>
+                <input type="button" id="send_msn" value="SEND">
+            </form>
+        </div>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/js/chatnew.js"></script>
+
+</body>
+</html>

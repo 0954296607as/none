@@ -1,0 +1,29 @@
+{
+  "name": "site",
+  "version": "1.0.0",
+  "description": "site",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "Stashenko Andrew",
+  "license": "ISC",
+  "keywords": [
+    "nodejs",
+    "socketio",
+    "expressjs",
+    "vuejs"
+  ],
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "ip": "^1.1.5",
+    "socket.io": "^2.1.1",
+    "socket.io-client": "^2.1.1",
+    "sqlite": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}

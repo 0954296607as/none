@@ -1,0 +1,67 @@
+body{
+
+    margin: 0px;
+    background-color: black;
+    height: 100%;
+
+
+
+    
+}
+#logo{
+position: relative;
+
+    
+
+}
+
+
+
+
+#canvas{
+  
+   position: fixed;
+   width: 100%;;
+   height: 100%;
+    z-index: -1;
+
+
+}
+
+header{
+    margin: 50px;
+    color: white;
+    height: 100%;
+    text-align: center;
+    
+}
+footer{
+    bottom: 20px;
+    width: 100%;
+    position: absolute;
+    height:50px ;
+    color: white;
+    text-align: center;
+}
+.navigator{
+    margin: 20;
+    padding: 0;
+    list-style-type: none;
+
+    
+}
+.navigator li { display: inline; }
+.navigator a {
+    color: #fff;
+    padding: 5px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 32px;
+
+ 
+  }
+  .navigator a:hover {
+    border-radius: 20px;
+    background-color: rgb(24, 212, 87);
+  }
