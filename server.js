@@ -23,7 +23,7 @@ app.use(express.json());
 
 
 
-let server= app.listen(port,'localhost',(err) => {
+let server= app.listen(port,'0.0.0.0',(err) => {
     if (err) {
         return console.log('something bad happened', err);
     };
