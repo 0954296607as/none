@@ -21,9 +21,17 @@
     "ip": "^1.1.5",
     "socket.io": "^2.1.1",
     "socket.io-client": "^2.1.1",
-    "sqlite": "^3.0.0"
+    "sqlite3": "^4.0.3"
   },
   "devDependencies": {
     "nodemon": "^1.18.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0954296607as/none.git"
+  },
+  "bugs": {
+    "url": "https://github.com/0954296607as/none/issues"
+  },
+  "homepage": "https://github.com/0954296607as/none#readme"
 }
