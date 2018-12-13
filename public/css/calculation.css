@@ -1,0 +1,84 @@
+body{
+    background-color:darkslategrey;
+    height: 90vh;
+}
+.w_block{
+    margin:0% auto;
+    position: relative;
+}
+img{
+    float: left;
+}
+.button_back{
+    color: white;
+    font-size: 25px;
+
+}
+header{
+    min-height: 87px;
+    max-height: 100%;
+    background-color:blueviolet;
+    text-align: right;
+
+}
+a{
+    color: black; 
+}
+a:hover{
+    background-color:red;
+}
+.m_block{
+    min-width: 100%;
+
+
+}
+.menu_table{
+    text-align: center;
+    background-color:darkolivegreen;
+    color: white;
+
+}
+table{
+    min-width: 80%;
+    border: 2px;
+    font-size: 24px;
+    margin: 5px auto;
+    background-color: lightgreen;
+    border: 1px;
+    border-color: black;
+}
+
+
+.l_table {
+    font-weight: bold;
+    background-color:darkolivegreen;
+    color: white;
+}
+.m_table{
+    text-align: center;
+    background-color: lightgreen;
+    color: black;
+}
+.f_table{
+    background-color:darkolivegreen;
+    color: white;  
+}
+
+
+select{
+    width: 100%;
+    font-size: 20px;
+    size: 20px;
+}
+option{
+    width: 200px;
+}
+#packing{
+    display: none;
+}
+#color{
+    display: none;
+}
+#collections{
+    display: none;
+}
