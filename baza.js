@@ -4,7 +4,7 @@ class Baza{
     };
      getPrice (id, callback){
         let err, data;
-        let db=new this.sql.Database('public/sql/mybase.db');
+        let db=new this.sql.Database('sql/mybase.db');
     
         if(typeof id!='number') {
             err='error now';
@@ -22,7 +22,7 @@ class Baza{
     }
     getCollection(id, callback){
         let err, data;
-        let db=new this.sql.Database('public/sql/mybase.db');
+        let db=new this.sql.Database('sql/mybase.db');
         if(typeof id!='number') {
             err='error now';
         
@@ -40,7 +40,7 @@ class Baza{
     getRecipes(product_id, color_number, callback){
         //console.log('product='+product_id+' color='+color_number)
         let err, data;
-        let db=new this.sql.Database('public/sql/mybase.db');
+        let db=new this.sql.Database('sql/mybase.db');
         if(typeof product_id!='number') {
             err='error now';
         
@@ -62,7 +62,7 @@ class Baza{
         
     }
     get_price_pigments(callback){
-        let db=new this.sql.Database('public/sql/mybase.db');
+        let db=new this.sql.Database('sql/mybase.db');
         basa('SELECT p.product_id, p.price FROM prices as p WHERE p.packing=1', db, (err,data)=>{
             callback(data);
         } );
